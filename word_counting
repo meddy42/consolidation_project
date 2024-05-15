@@ -1,5 +1,6 @@
 import random
 
+#wordbank selection!
 def select_word():
     word_bank = ["golf", "tennis", "soccer", "football", "baseball"]  #wordbank with sports names!
     return random.choice(word_bank)
@@ -7,6 +8,7 @@ def select_word():
 def display_word(word, guessed_letters):
     return ''.join(letter if letter in guessed_letters else '_' for letter in word)
 
+# Setting Max attempts to 3
 def play_game():
     secret_word = select_word()
     guessed_letters = set()
@@ -14,6 +16,7 @@ def play_game():
     max_attempts = 3
     attempts = 0
 
+#Start playing the game! Players can guess both word and letters!
     print("Hello! You are playing a word guessing game")
 
     while True:
