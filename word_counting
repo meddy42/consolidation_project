@@ -17,7 +17,7 @@ def play_game():
     attempts = 0
 
 #Start playing the game! Players can guess both word and letters!
-    print("Hello! You are playing a word guessing game")
+    print("Hello! You are playing a word guessing game by Medhnaa!")
 
     while True:
         print("\nWord to guess:", display_word(secret_word, guessed_letters))
@@ -29,7 +29,7 @@ def play_game():
                 print("You've already guessed that letter!")
             elif guess in secret_word:
                 guessed_letters.add(guess)
-                print("Correct guess!")
+                print("Correct guess, good job!!")
             else:
                 print("Incorrect guess!")
                 attempts += 1
