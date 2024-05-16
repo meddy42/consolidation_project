@@ -1,5 +1,7 @@
 import random
 
+import matplotlib.pyplot as plt
+
 #wordbank selection! Guess the sport!
 def select_word():
     word_bank = ["golf", "tennis", "soccer", "football", "baseball"]  #wordbank with sports names!
