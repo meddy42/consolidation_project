@@ -1,6 +1,6 @@
 import random
 
-#wordbank selection!
+#wordbank selection! Guess the sport!
 def select_word():
     word_bank = ["golf", "tennis", "soccer", "football", "baseball"]  #wordbank with sports names!
     return random.choice(word_bank)
@@ -48,5 +48,20 @@ def play_game():
 
     print("The word was:", secret_word)
 
+#Adding the advanced component- plots
+    def plot_scores(scores):
+    plt.bar(range(len(scores)), scores.values(), align='center')
+    plt.xticks(range(len(scores)), list(scores.keys()))
+    plt.xlabel('Players')
+    plt.ylabel('Scores')
+    plt.title('Final Scores of Word Guessing Game')
+    plt.show()
 if __name__ == "__main__":
-    play_game()
+    num_players = int(input("Enter the number of players: "))
+    scores = {}
+    for i in range(num_players):
+        player_name = input(f"Enter the name of player {i+1}: ")
+        attempts = play_game()
+        scores[player_name] = attempts
+    print("Final Scores:", scores)
+    plot_scores(scores)
