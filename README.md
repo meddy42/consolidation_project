@@ -4,8 +4,8 @@ Word Counting Game in Python by Medhnaa Saran!
 - Good luck playing!
 
 How to play:
-- Players will imput a letter or a phrase
-- The code will tell them if the imput is "correct" or "incorrect"
+- Players will input a letter or a phrase
+- The code will tell them if the input is "correct" or "incorrect"
 - Players will have three atempts to choose the correct sport!
 
 
