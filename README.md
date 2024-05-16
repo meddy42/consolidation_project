@@ -3,6 +3,11 @@ Word Counting Game in Python by Medhnaa Saran!
 - To make the game more visually appealing, I have added a bar graph!
 - Good luck playing!
 
+How to play:
+- Players will imput a letter or a phrase
+- The code will tell them if the imput is "correct" or "incorrect"
+- Players will have three atempts to choose the correct sport!
+
 
 Contributions:
 - This game is created by Medhnaa Saran for INST126
