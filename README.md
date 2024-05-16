@@ -12,4 +12,4 @@ How to play:
 Contributions:
 - This game is created by Medhnaa Saran for INST126
 - Code Review by Riya Patel for our "Code Review Assignment"
-- Class recordings and materials
+- Class recordings, materials, and presentations
