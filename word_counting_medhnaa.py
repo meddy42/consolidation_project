@@ -22,7 +22,7 @@ def play_game():
     while True:
         print("\nWord to guess:", display_word(secret_word, guessed_letters))
 
-        guess = input("Enter a letter or guess the word: ").lower()
+        guess = input("Enter a letter or guess the sport: ").lower()
 
         if len(guess) == 1 and guess.isalpha():
             if guess in guessed_letters:
